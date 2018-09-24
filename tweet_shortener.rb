@@ -39,5 +39,5 @@ def word_substituter(yar)
  end
 
  def shortened_tweet_truncator(yar)
-yar.slice(0, 140)
+yar[0, 140]
  end
